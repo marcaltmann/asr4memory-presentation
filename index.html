@@ -41,8 +41,6 @@ class: center, middle
 
 # Project Overview
 
-## Building an ASR infrastructure / pipeline
-
 ---
 
 # Project Overview ASR4Memory
@@ -50,15 +48,19 @@ class: center, middle
 ## Overview
 
 - Project Duration: January to December 2024
-- Funding: NFDI4Memory, Incubator Funds
-- Team Members: [Peter Kompiel][1], [Marc Altmann][2], [Tobias Kilgus][3] (FU Berlin), Christian Horvat (Department of Mathematics, FHNW)
-- Implementation: University Library of FU, Department:
-- Research and Publication Services, Team: Digital Interview Collections
+- Funding:
+  - NFDI (Nationale Forschungsdateninfrastruktur)
+  - NFDI4Memory
+- Team Members:
+  - [Peter Kompiel][1]
+  - [Marc Altmann][2]
+  - [Tobias Kilgus][3] (FU Berlin)
+  - Christian Horvat (Department of Mathematics, FHNW)
+- Implementation: University Library of FU
+- Department: Research and Publication Services
+- Team: Digital Interview Collections
 
-## Links
-
-- Website: <https://www.fu-berlin.de/asr4memory>
-- GitHub: <https://github.com/asr4memory>
+Website: <https://www.fu-berlin.de/asr4memory>
 
 ---
 
@@ -107,9 +109,11 @@ class: center, middle
 
 - Large collections of historical audiovisual resources need to be made accessible and searchable:
 - Transcription is key!
-- So far, transcription of AV resources has been done via:
-  - Manual transcription → very time-consuming and costly
-  - Commercial transcription services
+
+So far, transcription of AV resources has been done via:
+
+1. Manual transcription → very time-consuming and costly
+2. Commercial transcription services
   - Poor data protection (cloud services) and high costs
   - Mediocre transcription quality, few export formats
 
@@ -227,27 +231,30 @@ class: center, middle
 
 # Next Steps
 
-- Gradual integration of ASR functionality in OH.D
-  - Start of the pilot phase for ASR use by OH.D archives
-  - Improved correction functions for transcripts in OH.D
-  - Automatic import of transcripts into OH.D archives
-- Further development of the transcription pipeline
-  - Expansion of hardware, e.g. additional GPUs
-  - Enable further export formats such as TEI or IIIF
-  - Reduce smoothing and hallucinations
-  - Improve speaker markup
+- Make it easier for our partners to…
+  - transcribe interviews
+  - edit transcripts
+  - upload transcripts to the OH.D platform
+  - find named entities
+  - anonymize parts an interview ([Open.Oral History][4] project)
 
-- Fine-tuning of the ASR models
-  - Training with oral history interviews on HPC Cluster(s)
-  - Goal: development of a domain-specific ASR model
-  - Use case: 90 interviews on the history of the Freie Universität Berlin
+- Improve quality and usefulness of transcripts through…
+  - additional export formats, e.g. TEI
+  - reduced smoothing
+
+Important next step: fine-tuning of the ASR models (Peter)
+
+---
+class: center, middle
+
+# Fine-tuning
 
 
 
 [1]: https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/pkompiel.html
 [2]: https://www.fu-berlin.de/sites/ub/ueber-uns/team/altmann/index.html
 [3]: https://www.fu-berlin.de/sites/ub/ueber-uns/team/kilgus/index.html
-
+[4]: https://www.fu-berlin.de/sites/interviewsammlungen/forschung/ooh/index.html
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
