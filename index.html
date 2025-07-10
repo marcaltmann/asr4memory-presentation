@@ -207,28 +207,6 @@ class: center, middle
 
 ---
 
-# Weaknesses of ASR
-
-- Hallucinations:
-  - Generation of non-speech content, originating from the training data
-- Entity recognition:
-  - Misrecognition of (historical/current) personal names, places, events
-- Speaker diarization -> issues with:
-  - rapid speaker changes
-  - parallel speech
-  - many speakers
-- Smoothing of the transcript -> frequently omitted:
-  - Filler words
-  - Repetitions, sentence breaks, delays
-  - Non-verbal communication, pauses, direct speech
-- Dialects and accents are transformed into high German.
-
-- ASR results
-  - not a verbatim transcription
-  - more like a “basic research transcript” (Fuß/Karbach 2019)
-
----
-
 # Next Steps
 
 - Make it easier for our partners to…
@@ -237,10 +215,15 @@ class: center, middle
   - upload transcripts to the OH.D platform
   - find named entities
   - anonymize parts an interview ([Open.Oral History][4] project)
-
-- Improve quality and usefulness of transcripts through…
   - additional export formats, e.g. TEI
-  - reduced smoothing
+
+- Improve weaknesses of Whisper, e.g.
+  - reduce smoothing of transcripts
+  - improve recognition of non-English proper names
+  - improve transcription of local dialects
+  - improve recognition of multiple speakers
+  - reduce hallucinations
+
 
 Important next step: fine-tuning of the ASR models (Peter)
 
